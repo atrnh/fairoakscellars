@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 1
   key: Our Story
 ---
-> I love stories, particularly stories of hard work and persistence to achieve the American Dream. Fair Oaks Cellars is a dream of changing lifestyle, a dream of moving from meeting room to meeting room coordinating efforts of a couple dozen teams over many time zones to exercising body, mind and art with grapes people and tools to produce a product that touches lives.
+> *I love stories, particularly stories of hard work and persistence to achieve the American Dream. Fair Oaks Cellars is a dream of changing lifestyle, a dream of exercising body, mind and art with grapes people and tools to produce a product that touches and lifts souls, and that can be savored and become part of shared life memories!*
 >
 > — Mark Bui-Ford, Aspiring Winemaker
 
