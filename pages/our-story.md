@@ -3,7 +3,7 @@ title: Our Story
 date: 2020-04-02T22:21:25.388Z
 permalink: /our-story/index.html
 eleventyNavigation:
-  order: 2
+  order: 1
   key: Our Story
 ---
 > I love stories, particularly stories of hard work and persistence to achieve the American Dream. Fair Oaks Cellars is a dream of changing lifestyle, a dream of moving from meeting room to meeting room coordinating efforts of a couple dozen teams over many time zones to exercising body, mind and art with grapes people and tools to produce a product that touches lives.
