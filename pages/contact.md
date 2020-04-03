@@ -14,4 +14,4 @@ You can reach Mark Bui-Ford at
 
 Alternatively, follow me on these social media platforms:
 
-[![LinkedIn](/static/img/linkedin-1.png)](https://www.linkedin.com/in/markwford)
+* [LinkedIn](https://www.linkedin.com/in/markwford)
