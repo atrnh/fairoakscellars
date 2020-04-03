@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap');
 
 :root {
   --fontMain: 'EB Garamond', 'Garamond', 'Georgia', serif;
@@ -13,6 +13,11 @@ body {
   background: var(--colorBg);
   font-size: 14pt;
   margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fontAccent);
+  font-weight: 700;
 }
 
 #content-wrapper {
@@ -31,6 +36,7 @@ body {
   --paddingX: 10px;
   --paddingT: 6px;
   font-family: var(--fontAccent);
+  font-weight: 600;
   font-size: 1.5em;
   width: calc(221px + var(--paddingX) * 2);
 }
