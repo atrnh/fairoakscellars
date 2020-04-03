@@ -1,7 +1,18 @@
 <nav>
   {% set navPages = collections.all | eleventyNavigation %}
   <ul>
-  {%- for entry in navPages %}
+  {%- for entry in navPages | slice(2) | first %}
+    <li>
+      <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
+    </li>
+  {%- endfor %}
+  <li id="nav-brand">
+    <a href="{{ '/' | url }}">
+			<object type="image/svg+xml" data="static/img/FairOaksLogo.svg"></object>
+      <span id="nav-title">{{ metadata.title }}</span>
+    </a>
+  </li>
+  {%- for entry in navPages | slice(2) | last %}
     <li>
       <a href="{{ entry.url | url }}"{% if entry.url == page.url %} data-current="current item"{% endif %}>{{ entry.title }}</a>
     </li>

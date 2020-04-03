@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap');
+
+:root {
+  --fontMain: 'EB Garamond', 'Garamond', 'Georgia', serif;
+  --fontAccent: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
+  --colorBg: #1a1f16;
+  --colorPrimary: #0d1f22;
+  --colorAccent1: #0b8800;
+  --colorAccent2: #b38a58;
+}
+
+body {
+  font-family: var(--fontMain);
+  background: var(--colorBg);
+  font-size: 14pt;
+  margin: 0;
+}
+
+#content-wrapper {
+  background: white;
+  display: grid;
+  grid-template:
+    'header' auto
+    'main' minmax(70vh, auto)
+    'footer' auto / 800px;
+  margin: 0 auto;
+  width: 800px;
+  padding: 1em 2em;
+}
+
+#nav-brand {
+  font-family: var(--fontAccent);
+  color: var(--colorPrimary);
+  font-size: 1.5em;
+  width: 201px;
+}
+
+#nav-brand a {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#nav-brand object {
+  width: 201px;
+  height: 187px;
+}
+
+#nav-title {
+  line-height: 1em;
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center
+}
+
+nav {
+  width: 100%;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--colorAccent1);
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  display: flex;
+  align-items: flex-end;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+}
