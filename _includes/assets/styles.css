@@ -3,10 +3,9 @@
 :root {
   --fontMain: 'EB Garamond', 'Garamond', 'Georgia', serif;
   --fontAccent: 'Cormorant Garamond', 'Garamond', 'Georgia', serif;
-  --colorBg: #1a1f16;
+  --colorBg: #4a7856;
   --colorPrimary: #0d1f22;
   --colorAccent1: #0b8800;
-  --colorAccent2: #b38a58;
 }
 
 body {
@@ -22,29 +21,63 @@ body {
   grid-template:
     'header' auto
     'main' minmax(70vh, auto)
-    'footer' auto / 800px;
+    'footer' auto / 100%;
   margin: 0 auto;
-  width: 800px;
-  padding: 1em 2em;
+  max-width: 1000px;
+  width: 80vw;
 }
 
 #nav-brand {
+  --paddingX: 10px;
+  --paddingT: 6px;
   font-family: var(--fontAccent);
-  color: var(--colorPrimary);
   font-size: 1.5em;
-  width: 201px;
+  width: calc(221px + var(--paddingX) * 2);
 }
 
 #nav-brand a {
+  position: relative;
   color: inherit;
+  background: white;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: var(--paddingT) var(--paddingX) 0 var(--paddingX);
+  border-radius: 100px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#nav-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-brand a::before {
+  position: absolute;
+  display: block;
+  top: 100%;
+  left: 50%;
+  color: transparent;
+  content: '•';
+  text-shadow: 0 0 transparent;
+  transition: text-shadow 0.3s, color 0.3s;
+  transform: translateX(-50%);
+  pointer-events: none;
+  font-size: 10pt;
+}
+
+#nav-brand a:hover::before {
+  color: var(--colorPrimary);
+  text-shadow: 10px 0 var(--colorPrimary), -10px 0 var(--colorPrimary);
 }
 
 #nav-brand object {
-  width: 201px;
+  width: 221px;
   height: 187px;
+}
+
+#nav-brand object:hover {
+  cursor: pointer;
 }
 
 #nav-title {
@@ -55,7 +88,10 @@ header {
   grid-area: header;
   display: flex;
   align-items: flex-end;
-  justify-content: center
+  justify-content: center;
+  min-height: 300px;
+  height: 40vh;
+  background: var(--colorPrimary);
 }
 
 nav {
@@ -67,11 +103,18 @@ nav a {
   color: var(--colorAccent1);
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 nav ul {
-  padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  height: 1.5em;
+  background: white;
+  margin-bottom: 0;
+  padding: 0.5em 0;
 }
 
 nav ul li {
@@ -81,8 +124,16 @@ nav ul li {
 
 main {
   grid-area: main;
+  padding: 1em 3em;
+  font-size: 15pt;
 }
 
 footer {
   grid-area: footer;
+}
+
+#home-subtitle {
+  font-size: 24pt;
+  font-style: italic;
+  text-align: center;
 }
