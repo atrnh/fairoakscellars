@@ -1,6 +1,6 @@
 ---
 title: Location
-date: 2020-04-02T22:48:25.388Z
+date: 2020-05-03T16:09:17.159Z
 permalink: /location/index.html
 eleventyNavigation:
   order: 3
