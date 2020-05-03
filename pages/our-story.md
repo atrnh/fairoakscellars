@@ -1,6 +1,6 @@
 ---
 title: Our Story
-date: 2020-04-02T22:21:25.388Z
+date: 2020-05-03T16:18:27.710Z
 permalink: /our-story/index.html
 eleventyNavigation:
   order: 1
@@ -43,4 +43,5 @@ Mark's incredibly sweet & supportive husband David Bui-Ford has been struggling 
 ## Preparation & Profession
 
 * **Fall 2018–Spring 2020**, Full-time [UC Davis Viticulture & Enology graduate program](http://vengg.ucdavis.edu/)
-* **Summer 2020**, Start working full-time at a commercial winery
+* **Harvest 2019**, Exposed to a wide variety of wine styles and fruit conditions working a cellar internship at [Bin to Bottle](https://bintobottle.com/)'s Napa custom crush facility. 
+* **Summer 2020**, Work a cellar internship at [Cardinale](https://www.cardinale.com/) in Napa's Oakville AVA.
