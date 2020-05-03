@@ -1,6 +1,6 @@
 ---
 title: Wines
-date: 2020-05-03T16:08:56.052Z
+date: 2020-05-03T16:20:13.822Z
 permalink: /wines/index.html
 eleventyNavigation:
   order: 2
@@ -57,3 +57,7 @@ Tasting notes written right at the end of fermentation:
 We only produce one barrel, so we are using a barrel made of oak from the Allier and Vosges forests to give it some of the character of both. The barrel is medium plus toasted (so fairly dark) with untoasted heads.
 
 We bottled, sparging with argon, after aging 14 months in barrel. This gave the wine lots of those enjoyable aromas oak barrels can contribute, but still kept that wonderful Paso Robles fruit character. Plenty of permanent pigment was formed, so the color is still nice and deep. We have been enjoying bottles with friends and family ever since it had a few weeks to settle down in the bottles!
+
+
+
+![Fair Oaks Cellars 2016 Paso Robles Petite Syrah](/static/img/foc16psaward.jpg "Fair Oaks Cellars 2016 Paso Robles Petite Syrah")
