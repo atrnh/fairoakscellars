@@ -1,6 +1,6 @@
 ---
 title: Wines
-date: 2020-04-02T22:47:25.388Z
+date: 2020-05-03T16:08:56.052Z
 permalink: /wines/index.html
 eleventyNavigation:
   order: 2
