@@ -6,7 +6,6 @@ eleventyNavigation:
   order: 2
   key: Wines
 ---
-
 **To be clear, we are not a commercial winery and so have no wine to sell. This page is more to share all the fun we've been having making wine in the back yard, shed and guest bedroom of our peninsula bungalow.**
 
 ## 2015 Paso Robles Cabaret Sauvignon
@@ -56,3 +55,5 @@ Tasting notes written right at the end of fermentation:
 > Beautiful deep purple to the rim. Notes of black cherry and plum overlaying a graphite core. Acids and tannin in balance. Soft on the attack but rapidly gains power and spice in the long finish. Malolactic fermentation will round out the harsh edges and oak will add complexity and character to what is shaping up to be a powerhouse wine.
 
 We only produce one barrel, so we are using a barrel made of oak from the Allier and Vosges forests to give it some of the character of both. The barrel is medium plus toasted (so fairly dark) with untoasted heads.
+
+We bottled, sparging with argon, after aging 14 months in barrel. This gave the wine lots of those enjoyable aromas oak barrels can contribute, but still kept that wonderful Paso Robles fruit character. Plenty of permanent pigment was formed, so the color is still nice and deep. We have been enjoying bottles with friends and family ever since it had a few weeks to settle down in the bottles!
